@@ -20,8 +20,9 @@ const Join = () => {
                     <button className={"button mt-20"} type="submit" onClick = {() => web3.eth
                         .getAccounts()
                         .then(accounts => console.log(accounts))
-                        .catch(error => console.log(error))}>Sign Up for the Chanllenge</button>        
-            </div>
+                        .catch(error => console.log(error))}>Sign Up for the Challenge</button>
+                    <a href = "https://wallet.portis.io/" >Proceed to stake</a>   
+          </div>
         </div>
     );
 }
